@@ -1,0 +1,27 @@
+/*Main Container*/
+$container-corp-width: 1140px;
+$container-corp-sidepad: $sep-side-common;
+$container-corp-sidepad-mobile: $sep-side-common;
+.container-corp {
+	width: 100%;
+  padding: 2em 0;
+}
+
+	.container-corp {
+		margin-right: auto;
+		margin-left: auto;
+		padding-right: $container-corp-sidepad;
+		padding-left: $container-corp-sidepad;
+		max-width: $container-corp-width + ($container-corp-sidepad)*2;
+    background-color: $main-color;
+    -webkit-box-shadow: 0px 0px 48px 0px rgba(87,86,87,0.7);
+    -moz-box-shadow: 0px 0px 48px 0px rgba(87,86,87,0.7);
+    box-shadow: 0px 0px 48px 0px rgba(87,86,87,0.7);
+	}
+
+@media(max-width:767px){
+	.container-corp {
+		padding-right: $container-corp-sidepad-mobile;
+		padding-left: $container-corp-sidepad-mobile;
+	}
+}

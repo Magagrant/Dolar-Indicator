@@ -1,0 +1,12 @@
+.indicatorContainer{
+  justify-content: space-around;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    &-number{
+      font-size: $h4-font-size;
+      font-family:$f-opensans-semiBold;
+      color: black;
+
+    }
+}

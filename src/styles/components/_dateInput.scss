@@ -1,0 +1,17 @@
+.dateContainer{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    input{
+      border-radius: 5px;
+    border: 0;
+    height: 30px;
+    font-size: 1em;
+    margin-right: 1em;
+    text-align: right;
+    }
+    label{
+          font-size: .8em;
+          font-family: $f-opensans-light;
+    }
+}
